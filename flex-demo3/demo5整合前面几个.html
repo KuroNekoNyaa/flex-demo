@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* 在此处补充代码*/
+        header{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: black;
+            align-items: center;
+        }
+        header ul {
+            color: #fff;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+
+            justify-content: space-around;
+        }
+
+      /*  header ul li {
+            padding: 0 50px;
+        }
+*/
+
+        header .login  input{
+            color: #fff;
+            background-color: coral;
+            padding: 5px 8px;
+            border: none;
+            outline: none;
+            margin: 0 10px;
+        }
+
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .section{
+            width: 40%;
+            border: 1px solid #74C2D3;
+            background-color: #74C2D3;
+            color: #000;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .box{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+
+        }
+        .shopping .btn{
+            border: none;
+            outline: none;
+            background-color: coral;
+            color: #ffffff;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+<!-- 头部 -->
+<header>
+    <div class="logo">
+        <img src="http://climg.mukewang.com/59197ab000014f1503000100.jpg" alt="">
+    </div>
+    <ul class="nav">
+        <li>课程</li>
+        <li>路径</li>
+        <li>猿问</li>
+        <li>手记</li>
+    </ul>
+    <div class="login">
+        <input type="button" value="登录">
+        <input type="button" value="注册">
+    </div>
+</header>
+<!-- 主体内容 -->
+<section>
+    <div class="section">
+        <div class="box">
+            <p>《前端小白入门手册》</p>
+            <div>适用人群：没有任何前端基础的小白</div>
+            <div>费用：￥499</div>
+        </div>
+        <div class="shopping">
+            <div class="btn">加入购物车</div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="box">
+            <p>《HTML5月CSS3实现动态网页》</p>
+            <div>适用人群：有html和css基础的童鞋</div>
+            <div>费用：￥599</div>
+        </div>
+        <div class="shopping">
+            <div class="btn">加入购物车</div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="box">
+            <p>《前端小白入门手册》</p>
+            <div>适用人群：没有任何前端基础的小白</div>
+            <div>费用：￥499</div>
+        </div>
+        <div class="shopping">
+            <div class="btn">加入购物车</div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="box">
+            <p>《HTML5月CSS3实现动态网页》</p>
+            <div>适用人群：有html和css基础的童鞋</div>
+            <div>费用：￥599</div>
+        </div>
+        <div class="shopping">
+            <div class="btn">加入购物车</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

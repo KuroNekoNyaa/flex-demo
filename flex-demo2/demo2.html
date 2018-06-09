@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        div{
+            text-align: center;
+        }
+        .header, .footer {
+            height: 50px;
+            background: #757D8F;
+        }
+        .main{
+
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            background: #249D7F;
+        }
+        .left{
+            background: #77BADD;
+        }
+        .right {
+            background: #C74453;
+        }
+        .left,.right {
+            width: 100px;
+        }
+        .center{
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">上野区</div>
+        <div class="main">
+            <div class="left">我方水晶</div>
+            <div class="center">敌军还有3秒到达战场</div>
+            <div class="right">敌方水晶</div>
+        </div>
+        <div class="footer">下野区</div>
+    </div>
+</body>
+</html>
